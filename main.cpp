@@ -106,15 +106,7 @@ int main() {
 	//emp.display();  // Calls the const member function
 
    //==============operator overloading============
-	Integer num1(10);
-	Integer num2(20);
-
-	Integer sum = num1 + num2;
-
-	cout << "num1: "; num1.Display();
-	cout << "num2: "; num2.Display();
-	cout << "sum : "; sum.Display();
-
+	operator_overloading_example();
 	
 	return 0;
 }
