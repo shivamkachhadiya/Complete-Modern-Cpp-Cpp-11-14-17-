@@ -12,6 +12,9 @@
 #include "this_pointer.h"
 #include "const_member_fn.h"
 #include "operator_overloading.h"
+#include "enumexample.h"
+#include "string_example.h"
+#include "Inheritance.h"
 using namespace std;
 
 int main() {
@@ -106,8 +109,31 @@ int main() {
 	//emp.display();  // Calls the const member function
 
    //==============operator overloading============
-	operator_overloading_example();
-	
+	//operator_overloading_example();
+
+	//=============enum example=================
+	//fillColor(RED);
+	//fillColor(GREEN);
+	//fillColor(BLUE);
+	//
+
+	//=================string===================
+	//string firstname;
+	//cin >> firstname;
+	//string lastname;
+	//cin >> lastname;
+	//cout << firstname.length() << " " << lastname.length() << endl;
+	//cout << combine(firstname, lastname);
+
+
+	//================inheritance=================
+	dog d;
+	d.eat();  // Calls the overridden eat() method in dog class
+	d.bark(); // Calls the bark() method in dog class
+	d.speak();
+	d.sleep();
+
+
 	return 0;
 }
 

@@ -131,14 +131,17 @@
     <ClInclude Include="basics.h" />
     <ClInclude Include="constructor.h" />
     <ClInclude Include="const_member_fn.h" />
+    <ClInclude Include="enumexample.h" />
     <ClInclude Include="for_loop_with_pointers.h" />
     <ClInclude Include="function_overloading.h" />
     <ClInclude Include="fun_add.h" />
+    <ClInclude Include="Inheritance.h" />
     <ClInclude Include="inline_function.h" />
     <ClInclude Include="memory_allocation.h" />
     <ClInclude Include="namespaces.h" />
     <ClInclude Include="operator_overloading.h" />
     <ClInclude Include="shivamPrint.h" />
+    <ClInclude Include="string_example.h" />
     <ClInclude Include="structures.h" />
     <ClInclude Include="this_pointer.h" />
   </ItemGroup>

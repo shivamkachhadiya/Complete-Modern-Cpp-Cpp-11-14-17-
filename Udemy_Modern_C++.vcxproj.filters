@@ -19,6 +19,12 @@
     <Filter Include="Header Files\Operator_Overloading">
       <UniqueIdentifier>{f76c6e56-f05d-45c8-b846-535124c11879}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ENUMs">
+      <UniqueIdentifier>{5089dbca-58d7-4e72-8b96-e65522da35ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\STRINGS">
+      <UniqueIdentifier>{3adf8b2c-c3f4-47af-9c39-d4b2de1b8765}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -67,6 +73,15 @@
     </ClInclude>
     <ClInclude Include="operator_overloading.h">
       <Filter>Header Files\Operator_Overloading</Filter>
+    </ClInclude>
+    <ClInclude Include="enumexample.h">
+      <Filter>Header Files\ENUMs</Filter>
+    </ClInclude>
+    <ClInclude Include="string_example.h">
+      <Filter>Header Files\STRINGS</Filter>
+    </ClInclude>
+    <ClInclude Include="Inheritance.h">
+      <Filter>Header Files\OOPS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
