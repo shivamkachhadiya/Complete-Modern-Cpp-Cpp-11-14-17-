@@ -19,6 +19,7 @@
 #include "Class_Templates_IMP.h"
 #include "Perfect_Forwarding.h"
 #include "variadic_template.h"
+#include "Partial_Specialization.h"
 using namespace std;
 
 int main() {
@@ -148,7 +149,10 @@ int main() {
 //main_variadic_template();
 
 //====================class template IMP================
-main_calling_class_template();
+//main_calling_class_template();
+
+
+main_Partial_Specialization_Calling();
 	return 0;
 }
 

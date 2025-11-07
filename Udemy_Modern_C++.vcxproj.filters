@@ -98,5 +98,8 @@
     <ClInclude Include="Class_Templates_IMP.h">
       <Filter>Header Files\TEMPLATES</Filter>
     </ClInclude>
+    <ClInclude Include="Partial_Specialization.h">
+      <Filter>Header Files\TEMPLATES</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

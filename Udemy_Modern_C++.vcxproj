@@ -141,6 +141,7 @@
     <ClInclude Include="memory_allocation.h" />
     <ClInclude Include="namespaces.h" />
     <ClInclude Include="operator_overloading.h" />
+    <ClInclude Include="Partial_Specialization.h" />
     <ClInclude Include="Perfect_Forwarding.h" />
     <ClInclude Include="shivamPrint.h" />
     <ClInclude Include="string_example.h" />
