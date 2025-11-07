@@ -25,6 +25,9 @@
     <Filter Include="Header Files\STRINGS">
       <UniqueIdentifier>{3adf8b2c-c3f4-47af-9c39-d4b2de1b8765}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\TEMPLATES">
+      <UniqueIdentifier>{5cbfc7f8-618a-4b10-b88f-7ad18fd0ca40}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -82,6 +85,18 @@
     </ClInclude>
     <ClInclude Include="Inheritance.h">
       <Filter>Header Files\OOPS</Filter>
+    </ClInclude>
+    <ClInclude Include="template_ex.h">
+      <Filter>Header Files\TEMPLATES</Filter>
+    </ClInclude>
+    <ClInclude Include="Perfect_Forwarding.h">
+      <Filter>Header Files\TEMPLATES</Filter>
+    </ClInclude>
+    <ClInclude Include="variadic_template.h">
+      <Filter>Header Files\TEMPLATES</Filter>
+    </ClInclude>
+    <ClInclude Include="Class_Templates_IMP.h">
+      <Filter>Header Files\TEMPLATES</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

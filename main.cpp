@@ -15,6 +15,10 @@
 #include "enumexample.h"
 #include "string_example.h"
 #include "Inheritance.h"
+#include "template_ex.h"
+#include "Class_Templates_IMP.h"
+#include "Perfect_Forwarding.h"
+#include "variadic_template.h"
 using namespace std;
 
 int main() {
@@ -127,13 +131,24 @@ int main() {
 
 
 	//================inheritance=================
-	dog d;
-	d.eat();  // Calls the overridden eat() method in dog class
-	d.bark(); // Calls the bark() method in dog class
-	d.speak();
-	d.sleep();
+	//dog d;
+	//d.eat();  // Calls the overridden eat() method in dog class
+	//d.bark(); // Calls the bark() method in dog class
+	//d.speak();
+	//d.sleep();
 
 
+	//=================template===================
+	//cout << getMax<int>(10, 20) << endl;          // For integers
+	//cout << getMax<double>(10.5, 20.3) << endl;  // For doubles
+//example_calling();
+//example_perfect_farward_calling();
+
+//================variadic template=================
+//main_variadic_template();
+
+//====================class template IMP================
+main_calling_class_template();
 	return 0;
 }
 

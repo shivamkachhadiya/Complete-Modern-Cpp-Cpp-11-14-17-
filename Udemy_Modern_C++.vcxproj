@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClInclude Include="assignment_1_pointers.h" />
     <ClInclude Include="basics.h" />
+    <ClInclude Include="Class_Templates_IMP.h" />
     <ClInclude Include="constructor.h" />
     <ClInclude Include="const_member_fn.h" />
     <ClInclude Include="enumexample.h" />
@@ -140,10 +141,13 @@
     <ClInclude Include="memory_allocation.h" />
     <ClInclude Include="namespaces.h" />
     <ClInclude Include="operator_overloading.h" />
+    <ClInclude Include="Perfect_Forwarding.h" />
     <ClInclude Include="shivamPrint.h" />
     <ClInclude Include="string_example.h" />
     <ClInclude Include="structures.h" />
+    <ClInclude Include="template_ex.h" />
     <ClInclude Include="this_pointer.h" />
+    <ClInclude Include="variadic_template.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
