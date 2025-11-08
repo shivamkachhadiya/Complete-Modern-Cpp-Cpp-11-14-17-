@@ -27,6 +27,8 @@
 #include "capture_by_value.h"
 #include "capture_by_refernce.h"
 #include "capture_all_by_refernce.h"
+#include "normal_function_wrapper.h"
+#include "Combine_All_Function_Wrapper.h"
 using namespace std;
 
 int main() {
@@ -174,8 +176,13 @@ int main() {
 //lamda_ex_with_function();
 //capture_by_value();
 //capture_by_refernce();
-capture_all_by_refernce();
+//capture_all_by_refernce();
 
+
+
+//======================function wrapper====================
+//normal_function_wrapper();
+function_wrapper_all_calling();
 return 0;
 }
 

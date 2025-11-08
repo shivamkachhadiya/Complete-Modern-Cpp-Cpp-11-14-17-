@@ -129,26 +129,31 @@
   <ItemGroup>
     <ClInclude Include="assignment_1_pointers.h" />
     <ClInclude Include="basics.h" />
+    <ClInclude Include="bind_pre_filling_arguments.h" />
     <ClInclude Include="CallBacks.h" />
     <ClInclude Include="capture_all_by_refernce.h" />
     <ClInclude Include="capture_by_refernce.h" />
     <ClInclude Include="capture_by_value.h" />
     <ClInclude Include="Class_Templates_IMP.h" />
+    <ClInclude Include="Combine_All_Function_Wrapper.h" />
     <ClInclude Include="Comparator.h" />
     <ClInclude Include="constructor.h" />
     <ClInclude Include="const_member_fn.h" />
     <ClInclude Include="enumexample.h" />
     <ClInclude Include="for_loop_with_pointers.h" />
     <ClInclude Include="function_overloading.h" />
+    <ClInclude Include="functor_class_with_operator.h" />
     <ClInclude Include="fun_add.h" />
     <ClInclude Include="Inheritance.h" />
     <ClInclude Include="inline_function.h" />
     <ClInclude Include="Lambda_Exp_Ex.h" />
     <ClInclude Include="memory_allocation.h" />
     <ClInclude Include="namespaces.h" />
+    <ClInclude Include="normal_function_wrapper.h" />
     <ClInclude Include="operator_overloading.h" />
     <ClInclude Include="Partial_Specialization.h" />
     <ClInclude Include="Perfect_Forwarding.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="shivamPrint.h" />
     <ClInclude Include="string_example.h" />
     <ClInclude Include="structures.h" />
@@ -156,6 +161,10 @@
     <ClInclude Include="this_pointer.h" />
     <ClInclude Include="Type_Traits_IMP.h" />
     <ClInclude Include="variadic_template.h" />
+    <ClInclude Include="wrapping_lambda_function.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Udemy_Modern_C++.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
