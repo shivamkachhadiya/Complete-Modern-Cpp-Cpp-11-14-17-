@@ -129,7 +129,12 @@
   <ItemGroup>
     <ClInclude Include="assignment_1_pointers.h" />
     <ClInclude Include="basics.h" />
+    <ClInclude Include="CallBacks.h" />
+    <ClInclude Include="capture_all_by_refernce.h" />
+    <ClInclude Include="capture_by_refernce.h" />
+    <ClInclude Include="capture_by_value.h" />
     <ClInclude Include="Class_Templates_IMP.h" />
+    <ClInclude Include="Comparator.h" />
     <ClInclude Include="constructor.h" />
     <ClInclude Include="const_member_fn.h" />
     <ClInclude Include="enumexample.h" />
@@ -138,6 +143,7 @@
     <ClInclude Include="fun_add.h" />
     <ClInclude Include="Inheritance.h" />
     <ClInclude Include="inline_function.h" />
+    <ClInclude Include="Lambda_Exp_Ex.h" />
     <ClInclude Include="memory_allocation.h" />
     <ClInclude Include="namespaces.h" />
     <ClInclude Include="operator_overloading.h" />
@@ -148,6 +154,7 @@
     <ClInclude Include="structures.h" />
     <ClInclude Include="template_ex.h" />
     <ClInclude Include="this_pointer.h" />
+    <ClInclude Include="Type_Traits_IMP.h" />
     <ClInclude Include="variadic_template.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

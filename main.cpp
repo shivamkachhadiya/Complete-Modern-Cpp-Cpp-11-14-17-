@@ -20,6 +20,13 @@
 #include "Perfect_Forwarding.h"
 #include "variadic_template.h"
 #include "Partial_Specialization.h"
+#include "Type_Traits_IMP.h"
+#include "CallBacks.h"
+#include "Comparator.h"
+#include "Lambda_Exp_Ex.h"
+#include "capture_by_value.h"
+#include "capture_by_refernce.h"
+#include "capture_all_by_refernce.h"
 using namespace std;
 
 int main() {
@@ -151,8 +158,24 @@ int main() {
 //====================class template IMP================
 //main_calling_class_template();
 
+//==================partial specialization=================
+//main_Partial_Specialization_Calling();
 
-main_Partial_Specialization_Calling();
-	return 0;
+//==================type traits=================
+//fn_type_traits_example();
+//check_div_type_template();
+
+//=========================callbacks====================
+//callbacks_calling();
+//compatator_callbacks_calling();
+
+//==================lambda expression=================
+//lamda_ex_print();
+//lamda_ex_with_function();
+//capture_by_value();
+//capture_by_refernce();
+capture_all_by_refernce();
+
+return 0;
 }
 

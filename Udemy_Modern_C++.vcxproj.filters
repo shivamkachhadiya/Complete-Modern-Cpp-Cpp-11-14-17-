@@ -28,6 +28,9 @@
     <Filter Include="Header Files\TEMPLATES">
       <UniqueIdentifier>{5cbfc7f8-618a-4b10-b88f-7ad18fd0ca40}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\LAMBDA_EXPRESSION">
+      <UniqueIdentifier>{4a97cdf8-ce58-4f7c-946d-f3979154efab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -100,6 +103,27 @@
     </ClInclude>
     <ClInclude Include="Partial_Specialization.h">
       <Filter>Header Files\TEMPLATES</Filter>
+    </ClInclude>
+    <ClInclude Include="Type_Traits_IMP.h">
+      <Filter>Header Files\TEMPLATES</Filter>
+    </ClInclude>
+    <ClInclude Include="CallBacks.h">
+      <Filter>Header Files\LAMBDA_EXPRESSION</Filter>
+    </ClInclude>
+    <ClInclude Include="Comparator.h">
+      <Filter>Header Files\LAMBDA_EXPRESSION</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambda_Exp_Ex.h">
+      <Filter>Header Files\LAMBDA_EXPRESSION</Filter>
+    </ClInclude>
+    <ClInclude Include="capture_by_value.h">
+      <Filter>Header Files\LAMBDA_EXPRESSION</Filter>
+    </ClInclude>
+    <ClInclude Include="capture_by_refernce.h">
+      <Filter>Header Files\LAMBDA_EXPRESSION</Filter>
+    </ClInclude>
+    <ClInclude Include="capture_all_by_refernce.h">
+      <Filter>Header Files\LAMBDA_EXPRESSION</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
