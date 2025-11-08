@@ -34,6 +34,9 @@
     <Filter Include="Header Files\Function_Wrapper_Trade_Ex">
       <UniqueIdentifier>{00753d1d-e590-4ce1-b494-0a8dc93228ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\STL">
+      <UniqueIdentifier>{ddbd22b1-ef91-4ad0-9164-e57d52ee6b5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -145,6 +148,21 @@
     </ClInclude>
     <ClInclude Include="Combine_All_Function_Wrapper.h">
       <Filter>Header Files\Function_Wrapper_Trade_Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_iterator.h">
+      <Filter>Header Files\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dequeue.h">
+      <Filter>Header Files\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Set_Example.h">
+      <Filter>Header Files\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Map_Example.h">
+      <Filter>Header Files\STL</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

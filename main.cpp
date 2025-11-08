@@ -29,6 +29,11 @@
 #include "capture_all_by_refernce.h"
 #include "normal_function_wrapper.h"
 #include "Combine_All_Function_Wrapper.h"
+#include "vector_iterator.h"
+#include "Dequeue.h"
+#include "List.h"
+#include "Set_Example.h"
+#include "Map_Example.h"
 using namespace std;
 
 int main() {
@@ -182,7 +187,15 @@ int main() {
 
 //======================function wrapper====================
 //normal_function_wrapper();
-function_wrapper_all_calling();
+//function_wrapper_all_calling();
+
+//======================STL examples====================
+//vector_iterator_example();
+//dequeue_example();
+//list_example();
+//set_example();
+map_example();
+
 return 0;
 }
 
